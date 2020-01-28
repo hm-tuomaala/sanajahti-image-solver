@@ -91,7 +91,7 @@ if __name__ == "__main__":
     kopio = kirjaimet.copy()
     set = set()
 
-    f = open('sanat.txt', 'r', encoding='latin1')
+    f = open('static/sanat.txt', 'r', encoding='latin1')
 
     found = False
 
