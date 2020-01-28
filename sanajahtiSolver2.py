@@ -144,7 +144,7 @@ class Ruutu():
 if __name__ == "__main__":
 
     # Location where downloaded images go from Gmail
-    img = Image.open('/mnt/c/Users/Tuomaala/Downloads/Image-1.jpg')
+    img = Image.open('/mnt/c/Users/Tuomaala/Desktop/Programs/sanajahtisolver2/src/static/IMG_1.jpg')
 
     width, height = img.size
 
@@ -166,7 +166,7 @@ if __name__ == "__main__":
     inv_out = PIL.ImageOps.invert(out)
 
     sana = image_to_string(inv_out, lang='fin', config='--psm 6')
-    print(sana)
+    # print(sana)
     time.sleep(1.5)
     data = sana.replace(' ', '').replace("|", "I")
 
