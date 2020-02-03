@@ -39,7 +39,8 @@ def recursion(ruutu, sana, index, used=[]):
 if __name__ == "__main__":
 
     # Location where downloaded images go from Gmail
-    img = Image.open('/mnt/c/Users/Tuomaala/Desktop/Programs/sanajahtisolver2/src/static/IMG_1.jpg')
+    # Replace with your own path
+    img = Image.open('/mnt/c/Users/Tuomaala/Desktop/Projects/sanajahtisolver2/src/static/IMG_1.jpg')
 
     width, height = img.size
 
